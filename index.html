@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+
+  <title>Barrabrava · Cocina de temporada en Mar del Plata</title>
+  <meta name="description" content="Barrabrava, San Lorenzo 1349, Mar del Plata. Cocina de temporada: mariscos, pastas y parrilla, con barra propia. Carta completa con precios y reserva por teléfono." />
+  <meta name="theme-color" content="#f9f8f3" />
+
+  <meta property="og:title" content="Barrabrava · Mar del Plata" />
+  <meta property="og:description" content="Cocina de temporada en San Lorenzo 1349. Carta completa y reservas." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="es_AR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f9f8f3'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='21' font-weight='bold' fill='%231a1a1a' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="wrap nav__inner">
+      <a class="wordmark" href="#/inicio">Barrabrava</a>
+
+      <ul class="index">
+        <li><a class="index__item" href="#/inicio" data-tab="inicio">Inicio</a></li>
+        <li><a class="index__item" href="#/carta" data-tab="carta">Carta</a></li>
+        <li><a class="index__item" href="#/contacto" data-tab="contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- ================= INICIO ================= -->
+    <section id="view-inicio" class="view" aria-label="Inicio">
+      <div class="cover">
+        <div class="wrap">
+          <h1 class="cover__title">Barrabrava</h1>
+          <p class="cover__where">San Lorenzo 1349 · Mar del Plata</p>
+
+          <div class="rule rule--heavy" role="presentation"></div>
+
+          <p class="cover__note">
+            Cocina de temporada. Lo que sale del puerto y del mercado va a la
+            plancha; el resto se cocina despacio y se sirve hasta la noche
+            cerrada.
+          </p>
+
+          <div class="cover__actions">
+            <a class="btn btn--primary" id="hero-llamar" href="tel:+542235969469">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.5 19.5 0 0 1-8.5-3 19.2 19.2 0 0 1-5.9-5.9 19.5 19.5 0 0 1-3-8.6A2 2 0 0 1 3.4 2H6a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.5 2.1L7 9.6a15.7 15.7 0 0 0 5.9 5.9l1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2Z"/>
+              </svg>
+              Llamar al 0223 596 9469
+            </a>
+            <a class="btn" href="#/carta">Ver la carta</a>
+          </div>
+
+          <p class="cover__alt">
+            ¿Preferís WhatsApp? <a id="hero-whatsapp" href="#" target="_blank" rel="noopener">Escribinos</a>
+          </p>
+
+          <p class="estado" id="estado-local" aria-live="polite">
+            <span class="estado__punto" aria-hidden="true"></span>
+            <span id="estado-texto"></span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Extracto real de la carta: la categoría que define al local -->
+      <div class="bloque">
+        <div class="wrap">
+          <div class="bloque__head">
+            <h2 class="bloque__title">Pescados y Mariscos</h2>
+            <a class="bloque__more" href="#/carta">Carta completa</a>
+          </div>
+          <ul class="menu" id="carta-portada"></ul>
+        </div>
+      </div>
+
+      <div class="bloque">
+        <div class="wrap">
+          <div class="bloque__head">
+            <h2 class="bloque__title">La Barra</h2>
+            <a class="bloque__more" href="#/carta">La barra en la carta</a>
+          </div>
+          <ul class="menu" id="barra-portada"></ul>
+        </div>
+      </div>
+
+      <div class="bloque">
+        <div class="wrap">
+          <div class="bloque__head">
+            <h2 class="bloque__title">El ambiente</h2>
+          </div>
+          <ul class="tiras" id="galeria-inicio"></ul>
+        </div>
+      </div>
+
+      <!-- Reseñas de Google. La lista se pinta desde RESENAS (data.js) con
+           reseñas reales copiadas por el local desde Google Maps. Tomarlas en
+           vivo exigiría una clave de Maps Platform con facturación, y Google
+           además prohíbe cachear el contenido. Si RESENAS está vacío, el
+           bloque entero queda oculto: no hay título con nada debajo. -->
+      <div class="bloque" id="bloque-resenas" hidden>
+        <div class="wrap">
+          <div class="bloque__head">
+            <h2 class="bloque__title">Lo que dicen</h2>
+            <a class="bloque__more" id="resenas-maps" href="#" target="_blank" rel="noopener">Todas en Google Maps</a>
+          </div>
+
+          <div class="resenas__global" id="resenas-global" hidden>
+            <p class="resenas__puntaje" id="resenas-puntaje"></p>
+            <p class="resenas__conteo" id="resenas-conteo"></p>
+          </div>
+
+          <div class="carrusel" id="carrusel-resenas"
+               role="group" aria-roledescription="carrusel"
+               aria-label="Reseñas de Google">
+            <div class="carrusel__pista" id="resenas-pista"></div>
+            <div class="carrusel__ctrl" id="resenas-ctrl"></div>
+          </div>
+
+          <p class="resenas__estado solo-lectores" id="resenas-estado"
+             role="status" aria-live="off"></p>
+
+          <p class="resenas__atrib">Reseñas publicadas por comensales en Google Maps y copiadas por el local. La versión vigente está en Google.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CARTA ================= -->
+    <section id="view-carta" class="view" aria-label="La carta" hidden>
+      <div class="bloque bloque--head">
+        <div class="wrap">
+          <h2 class="pagina__title">La carta</h2>
+          <p class="prosa">
+            Precios en pesos. Si tenés alergias o preferencias, decinos al
+            reservar y lo pasamos por alto.
+          </p>
+        </div>
+      </div>
+
+      <!-- El .wrap va DENTRO del nav: si el nav quedara dentro de un .wrap
+           corto, su containing box terminaba antes y el sticky no tenía
+           recorrido (el índice se iba con el scroll). -->
+      <nav class="indice" id="carta-filtros" aria-label="Categorías de la carta">
+        <div class="wrap indice__wrap"></div>
+      </nav>
+
+      <div class="wrap">
+        <div id="carta-lista"></div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section id="view-contacto" class="view" aria-label="Contacto y ubicación" hidden>
+      <div class="bloque bloque--head">
+        <div class="wrap">
+          <h2 class="pagina__title">San Lorenzo 1349</h2>
+          <p class="prosa">
+            En el centro, a media cuadra de la costa. Reservas por teléfono o
+            por WhatsApp.
+          </p>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <figure class="mapa" id="mapa-wrap">
+          <iframe id="mapa" title="Mapa de Barrabrava, San Lorenzo 1349, Mar del Plata"></iframe>
+          <figcaption>
+            <a class="mapa__link" id="mapa-link" href="#" target="_blank" rel="noopener">Ver en Google Maps</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="bloque">
+        <div class="wrap columnas">
+          <section class="col">
+            <h3 class="col__title">Datos</h3>
+            <ul class="datos" id="datos-contacto"></ul>
+          </section>
+
+          <section class="col">
+            <h3 class="col__title">Horarios</h3>
+            <ul class="horarios" id="lista-horarios"></ul>
+            <p class="nota" id="horario-proximo"></p>
+          </section>
+        </div>
+      </div>
+
+      <div class="bloque">
+        <div class="wrap">
+          <div class="bloque__head">
+            <h2 class="bloque__title">Reservar</h2>
+          </div>
+
+          <div class="columnas columnas--reserva">
+            <div class="col">
+              <form id="form-reserva" novalidate>
+                <div class="campo">
+                  <label for="f-nombre">Tu nombre</label>
+                  <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Ana" required />
+                </div>
+
+                <div class="par">
+                  <div class="campo">
+                    <label for="f-personas">Personas</label>
+                    <select id="f-personas" name="personas" required>
+                      <option value="1">1 persona</option>
+                      <option value="2" selected>2 personas</option>
+                      <option value="3">3 personas</option>
+                      <option value="4">4 personas</option>
+                      <option value="5">5 personas</option>
+                      <option value="6">6 personas</option>
+                      <option value="7+">7 o más</option>
+                    </select>
+                  </div>
+
+                  <div class="campo">
+                    <label for="f-dia">Día</label>
+                    <input id="f-dia" name="dia" type="date" required />
+                  </div>
+                </div>
+
+                <div class="campo">
+                  <label for="f-hora">Hora</label>
+                  <select id="f-hora" name="hora" required></select>
+                </div>
+
+                <div class="campo">
+                  <label for="f-nota">Nota <span class="hint">(opcional)</span></label>
+                  <textarea id="f-nota" name="nota" rows="3" placeholder="Mesa junto a la ventana, alergias, con perro, lo que sea."></textarea>
+                </div>
+
+                <p class="previo" id="preview-mensaje" aria-live="polite"></p>
+
+                <button class="btn btn--wa" type="submit" id="btn-enviar">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.6-4.4a8.4 8.4 0 1 1 15.4-4.5Z"/>
+                    <path d="M9 9.4c.3-.7.6-.7 1-.7h.6c.2 0 .5 0 .7.6l.7 1.7c.1.3 0 .5-.1.7l-.4.5c-.1.2-.3.3-.1.6a7 7 0 0 0 3 2.6c.3.1.5 0 .6-.1l.5-.6c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5a2.4 2.4 0 0 1-1.6 1.5c-.6.1-1.4 0-2.7-.8a9.6 9.6 0 0 1-3.8-3.8c-.7-1.2-.9-2-.8-2.5Z"/>
+                  </svg>
+                  Abrir WhatsApp con la reserva
+                </button>
+
+                <p class="nota nota--reserva">
+                  Si el mensaje no llega, el mostrador atiende al
+                  <a href="tel:+542235969469">0223 596 9469</a>.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= COLOFÓN ================= -->
+  <footer class="colofon">
+    <div class="wrap">
+      <div class="colofon__grid">
+        <div>
+          <h3 class="colofon__title">Barrabrava</h3>
+          <p class="colofon__line">Cocina de temporada en el centro de Mar del Plata.</p>
+        </div>
+
+        <div>
+          <h3 class="colofon__title">Carta</h3>
+          <ul class="colofon__list">
+            <li><a href="#/carta">Entradas</a></li>
+            <li><a href="#/carta">Pescados y Mariscos</a></li>
+            <li><a href="#/carta">Pastas</a></li>
+            <li><a href="#/carta">Carnes</a></li>
+            <li><a href="#/carta">La Barra</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="colofon__title">Visitas</h3>
+          <ul class="colofon__list">
+            <li><a href="#/contacto">Cómo llegar</a></li>
+            <li><a href="#/contacto">Horarios</a></li>
+            <li><a href="#/contacto">Reservas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="colofon__title">Contacto</h3>
+          <ul class="colofon__list" id="footer-contacto"></ul>
+        </div>
+      </div>
+
+      <div class="colofon__pie">
+        <span>© <span id="anio">2026</span> Barrabrava · San Lorenzo 1349, Mar del Plata</span>
+        <span id="estado-footer"></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Llamada directa: la vía principal, porque el único número es un fijo -->
+  <a class="flotante" id="llamar-flotante" href="tel:+542235969469" aria-label="Llamar al 0223 596 9469">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.5 19.5 0 0 1-8.5-3 19.2 19.2 0 0 1-5.9-5.9 19.5 19.5 0 0 1-3-8.6A2 2 0 0 1 3.4 2H6a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.5 2.1L7 9.6a15.7 15.7 0 0 0 5.9 5.9l1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2Z"/>
+    </svg>
+  </a>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

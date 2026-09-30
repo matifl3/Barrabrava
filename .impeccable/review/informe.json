@@ -1,0 +1,85 @@
+[
+  {
+    "vista": "desktop",
+    "archivo": ".impeccable\\review\\desktop.png",
+    "vw": 1440,
+    "scrollW": 1440,
+    "scrollH": 3379,
+    "overflow": [],
+    "fuenteCarga": true,
+    "playfair": true,
+    "karla": true,
+    "contraste": [],
+    "errores": []
+  },
+  {
+    "vista": "desktop-carta",
+    "archivo": ".impeccable\\review\\desktop-carta.png",
+    "vw": 1440,
+    "scrollW": 1440,
+    "scrollH": 4383,
+    "overflow": [],
+    "fuenteCarga": true,
+    "playfair": true,
+    "karla": true,
+    "contraste": [],
+    "errores": []
+  },
+  {
+    "vista": "desktop-contacto",
+    "archivo": ".impeccable\\review\\desktop-contacto.png",
+    "vw": 1440,
+    "scrollW": 1440,
+    "scrollH": 2709,
+    "overflow": [],
+    "fuenteCarga": true,
+    "playfair": true,
+    "karla": true,
+    "contraste": [],
+    "errores": []
+  },
+  {
+    "vista": "mobile",
+    "archivo": ".impeccable\\review\\mobile.png",
+    "vw": 390,
+    "scrollW": 390,
+    "scrollH": 4418,
+    "overflow": [],
+    "fuenteCarga": true,
+    "playfair": true,
+    "karla": true,
+    "contraste": [],
+    "errores": []
+  },
+  {
+    "vista": "mobile-carta",
+    "archivo": ".impeccable\\review\\mobile-carta.png",
+    "vw": 390,
+    "scrollW": 390,
+    "scrollH": 4739,
+    "overflow": [
+      "li [394..451]",
+      "a.indice__item [394..451]",
+      "li [475..544]",
+      "a.indice__item [475..544]"
+    ],
+    "fuenteCarga": true,
+    "playfair": true,
+    "karla": true,
+    "contraste": [],
+    "errores": []
+  },
+  {
+    "vista": "mobile-contacto",
+    "archivo": ".impeccable\\review\\mobile-contacto.png",
+    "vw": 390,
+    "scrollW": 390,
+    "scrollH": 3345,
+    "overflow": [],
+    "fuenteCarga": true,
+    "playfair": true,
+    "karla": true,
+    "contraste": [],
+    "errores": []
+  }
+]

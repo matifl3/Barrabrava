@@ -1,0 +1,124 @@
+
+Ubicacion: https://www.google.com/maps/place/%5BBARRABRAVA%5D+San+Lorenzo/@-38.0176689,-57.5446321,18.13z/data=!4m6!3m5!1s0x9584dd002eda22bf:0x6107bcff697c5253!8m2!3d-38.0177086!4d-57.5439286!16s%2Fg%2F11y8ls9j2l?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D
+
+calle San Lorenzo 1349, B7600 Mar del Plata, Provincia de Buenos Aires
+
+horarios : lunes, 8 p. m.–12 a. m. / martes, 8 p. m.–12 a. m. / miércoles, 8 p. m.–12 a. m. / jueves, 8 p. m.–12 a. m. / viernes, 8 p. m.–1 a. m. / sábado, 12–3:30 p. m., 8 p. m.–1 a. m. / domingo, 12–3:30 p. m., 8 p. m.–12 a. m.
+
+telefono 02235969469
+
+
+
+carta: 
+
+Carpaccio De Lomo
+$ 13,00
+Ensalada Mediterránea
+$ 11,00
+Croquetas De Mortadela
+$ 12,00
+Champis Del Meson
+$ 13,00
+Tortilla Con Alioli
+$ 10,00
+Tortilla Trufada
+$ 14,00
+Provoleta Con Queso Azul
+$ 15,00
+Rabas Con Tartara
+$ 21,00
+Gambas Al Ajillo
+$ 21,00
+Arroz Cremoso Con Gambas
+$ 17,00
+Noquis Verdes Con Mejillones Y Cantimpalo
+$ 16,00
+Fucciles Con Pesto Y Espuma De Parmesano
+$ 16,00
+Lasagna De Mariscos
+$ 18,00
+Ternera Braseada Con Parmentier
+$ 19,00
+Bondiola Glaseada Con Teriyaki Y Pure De Batata
+$ 18,00
+Pepito De Bondiola Con Pimientos Y Provolone
+$ 17,00
+Tarta Gallega
+$ 12,00
+Croquetas De Mortadela Y Parmesano
+$ 12,00
+Terneka Braseada Con Parmeniter
+$ 19,00
+Bondiola Glaseada Con Pure De Batata
+$ 18,00
+Pepito De Carne Con Provolone
+$ 17,00
+Ñoquis Verdes C/ Mejillones Y Cantimpalo
+Croquetas Con Mortadela Y Parmesano
+$ 12,00
+Fusilles Con Pesto Y Espuma De Parmesano
+$ 14,00
+Rabas & Tartara
+$ 17,00
+Arroz Cremoso C/Gambas
+$ 16,00
+Ñoquis Verdes Con Cantimpalo Y Mejillones
+$ 15,00
+Bondiola Glaseada C/ Puré De Batata
+$ 17,00
+Pepito De Bondiola C/Pimientos Y Provolone
+$ 15,00
+Bocata De Calamares
+$ 14,00
+Ñoquis Con Mejillones Y Cantimpalo
+$ 15,00
+Ternera Braseada Parmentier
+De Lomo
+$ 10,00
+Tortilla C/Alioli
+$ 10,00
+Rabas C/Tártara
+$ 16,00
+Ñoquis C/ Cantimpalo Y Mejillones
+$ 14,00
+Fuccile C/ Pesto Y Espuma De Parmesano
+$ 14,00
+Bondiola Glaseada
+C/ puré de batata
+$ 16,00
+Pepito De Bondiola
+C/ pimientos y provolone
+$ 15,00
+Fusilli C/ Pesto Y Espuma De Parmesano
+$ 14,00
+Ternera Braseada C/ Puré Parmentier
+$ 18,00
+Bondiola Glaseada C/ Teriyaki Y Puré De Batata
+$ 16,00
+Pepito De Bondiola C/ Pimientos Verdes Y Provolone
+$ 15,00
+Noquís Con Mejillones
+Y cantimpalo
+$ 12,00
+Ternera Braseada
+C/ pure parmentier
+$ 16,00
+Bife A La Criolla
+$ 16,00
+Pepito De Carne
+C/ pimientos verdes y provolone
+$ 13,00
+Ñoquís C/ Mejillones Y Cantimpalo
+$ 12,00
+Ojo De Bife A La Criolla
+$ 16,00
+Pepito De Carne C/ Pimientos Y Provolone
+13,00
+
+promt: aca vamos hacer un front con pagina de un restaurant con pagina contacto , averigua como el usuario puede mandar desde la pagina un mensaje pre echo al wpp 
+usa todas las fotos que esten en el link de maps y creemos una pagina carta para para exponer todos el contenido de la carta  y las imgenes que saques de fotos que te deje y suma las de maps , en la pestaña contacto pone la ubicacion
+
+	
+
+
+
